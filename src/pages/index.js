@@ -3,6 +3,7 @@ import Header from '../components/Header'
 import Hero from "../components/Hero"
 import About from "../components/About"
 import Contact from "../components/Contact"
+import Portfolio from "../components/Portfolio"
 
 const IndexPage = () => {
   const [view, setView] = useState('hero')
@@ -19,6 +20,7 @@ const IndexPage = () => {
       { (view === 'hero') && <Hero /> }
       { (view === 'about') && <About /> }
       { (view === 'contact') && <Contact /> }
+      { (view === 'portfolio') && <Portfolio /> }
     </>
     )
 }
