@@ -7,7 +7,7 @@ const Portfolio = () => {
             <div class="w-4/5 mx-auto flex flex-col gap-10" >
                 <div class="flex flex-col md:flex-row mx-auto gap-2 items-center">
                     <a class="bg-green w-fit h-fit mx-auto" href="https://teckno.dell.com" target="_blank">
-                        <StaticImage class="opacity-30 hover:opacity-100 duration-700" width={600} layout="fixed" src="../images/teckno.JPG" alt="Homepage of the TecKno website"/>
+                        <StaticImage class="md:opacity-30 opacity-50 hover:opacity-100 duration-700" width={300} layout="fixed" src="../images/teckno.JPG" alt="Homepage of the TecKno website"/>
                     </a>
                     <div class="flex flex-col mx-auto gap-2 m-5 md:w-2/5">
                         <a class="w-fit" href="https://teckno.dell.com" target="_blank">
