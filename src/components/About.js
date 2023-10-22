@@ -17,7 +17,7 @@ const About = () => {
                         <h2 class="text-2xl text-green-focus">Experience</h2>
                         <div class="flex flex-col gap-10">
                             <div class="flex flex-col gap-2 px-5">
-                                <div >
+                                <div>
                                     <p class="text-white text-lg">Software Engineer - Contract</p>
                                     <p class="text-sm">at Dell from 06/2022 to present</p>
                                 </div>
