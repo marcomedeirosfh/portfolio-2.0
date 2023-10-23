@@ -3,14 +3,15 @@ import { StaticImage } from "gatsby-plugin-image";
 
 const Portfolio = () => {
     return (
-        <section class="min-h-screen bg-dark-blue py-10 md:py-20 text-light-blue">
-            <div class="w-4/5 mx-auto flex flex-col gap-10" >
+        <section class="bg-dark-blue py-10 md:py-20 text-light-blue">
+            <div class="w-4/5 max-w-7xl mx-auto flex flex-col gap-10" >
+                <h2 class="text-2xl text-green-focus">Portfolio</h2>
                 <div class="flex flex-col md:flex-row mx-auto gap-2 items-center">
-                    <a class="bg-green w-fit h-fit mx-auto" href="https://teckno.dell.com" target="_blank">
+                    <a class="bg-green w-fit h-fit mx-auto" href="https://teckno.dell.com" target="_blank" rel="noreferrer">
                         <StaticImage class="grayscale opacity-40 hover:opacity-100 hover:grayscale-0 duration-700" width={300} layout="fixed" src="../images/teckno.JPG" alt="Homepage of the TecKno website"/>
                     </a>
                     <div class="flex flex-col mx-auto gap-2 m-5 md:w-2/5">
-                        <a class="w-fit" href="https://teckno.dell.com" target="_blank">
+                        <a class="w-fit" href="https://teckno.dell.com" target="_blank" rel="noreferrer">
                             <h2 class="text-green hover:text-green-focus text-2xl">TecKno</h2>
                         </a>
                         <p>EdTech platform with computer science lessons and games for kids.</p>

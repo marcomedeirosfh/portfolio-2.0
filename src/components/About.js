@@ -2,8 +2,8 @@ import React from "react";
 
 const About = () => {
     return (
-        <section class="min-h-screen bg-dark-blue py-10 text-light-blue">
-            <div class="w-4/5 mx-auto flex flex-col gap-10">
+        <section class="bg-dark-blue py-10 text-light-blue">
+            <div class="w-4/5 max-w-7xl mx-auto flex flex-col gap-10">
                 <h2 class="text-2xl text-green-focus">About Me</h2>
                 <div class="flex flex-col gap-5 px-5">
                     <p><span class="text-white">Passionate about technology</span> since a young age, I have always been immersed on the internet and geek culture.
@@ -20,6 +20,7 @@ const About = () => {
                                 <div>
                                     <p class="text-white text-lg">Software Engineer - Contract</p>
                                     <p class="text-sm">at Dell from 06/2022 to present</p>
+                                    <a class="text-lg text-green hover:text-green-focus" href="https://teckno.dell.com" target="_blank" rel="noreferrer">TecKno</a>
                                 </div>
                                 <ul class="flex flex-col gap-2">
                                     <li>
