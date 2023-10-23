@@ -1,12 +1,13 @@
 import React from "react";
+import MarcoMedeiros from '../assets/Marco-Medeiros.pdf'
 
 const About = () => {
     return (
         <section class="bg-dark-blue py-10 text-light-blue">
             <div class="w-4/5 max-w-7xl mx-auto flex flex-col gap-10">
-                <div class="flex flex-row justify-between text-2xl text-green-focus">
+                <div class="flex flex-col md:flex-row justify-between text-2xl text-green-focus items-center">
                     <h2>About Me</h2>
-                    <a class="text-white hover:text-green-focus" href="../assets/Marco-Medeiros.pdf" download >CV</a>
+                    <a class="text-xl text-white hover:text-green-focus" href={MarcoMedeiros} download >Download CV</a>
                 </div>
                 <div class="flex flex-col gap-5 px-5">
                     <p><span class="text-white">Passionate about technology</span> since a young age, I have always been immersed on the internet and geek culture.
